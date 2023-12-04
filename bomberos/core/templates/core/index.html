@@ -1,0 +1,17 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'core/css/index.css' %}">
+{% endblock %}
+
+{% block title %}{% endblock %}
+{% block section_title %}{% endblock %}
+{% block content %}
+
+    <section class="contenedor">
+        <img src="{% static '/core/img/slider-1-.jpg'%}" alt="">
+        <p class="animate__animated animate__fadeIn">Sistema de Gestion Integral de Bomberos</p>
+    </section>
+    
+{% endblock %}
